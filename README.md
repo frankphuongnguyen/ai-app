@@ -1,6 +1,8 @@
 #
-### Install ollama
+### Setup local environment
 
 ```bash
-uv add ollama
+uv venv
+source .venv/bin/active
+uv add ollama gradio
 ```
